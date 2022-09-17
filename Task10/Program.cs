@@ -3,4 +3,12 @@
 Console.Write ("Введите трехзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 string b = Convert.ToString(a);
-Console.WriteLine ("Вторая цифра этого числа:"+b[1]);
+int Length = b.Length;
+if (Length >= 4 || Length < 2)
+{
+    Console.WriteLine ("Введено неверное значение");
+}
+else
+{
+    Console.WriteLine ("Вторая цифра этого числа:"+b[1]);
+}
