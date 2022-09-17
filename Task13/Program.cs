@@ -10,5 +10,5 @@ int Length = b.Length;
 }
 else
 {
-    Console.Write ("У этой числа нет третьей цифры");
+    Console.Write ("У этого числа нет третьей цифры");
 }
